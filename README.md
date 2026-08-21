@@ -13,7 +13,7 @@ The Claude Code plugin lives in [`claude/`](./claude). It connects the Dashform 
 
 ```
 /plugin marketplace add makloai/dashform-plugin
-/plugin install dashform@makloai
+/plugin install dashform@dashform-plugin
 ```
 
 Then run `/mcp`, select **dashform**, and sign in with your Dashform account — auth is OAuth in the browser, no API key needed. Marketplace discovery and agent-funnel booking tools work without signing in.

@@ -1,6 +1,6 @@
 {
   "$schema": "https://code.claude.com/schemas/marketplace.json",
-  "name": "makloai",
+  "name": "dashform-plugin",
   "description": "Dashform plugins for AI coding agents",
   "owner": {
     "name": "Makloai",
