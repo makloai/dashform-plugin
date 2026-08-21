@@ -14,4 +14,4 @@ Follow this workflow using the `dashform` MCP server:
 5. Offer lead scoring: run `suggest_scoring_criteria`, show the suggestions, and save the ones the user approves with `update_scoring_criteria`.
 6. When the user is happy, publish with `publish_form` and reply with the published share URL plus one-line pointers to replies and integrations as next steps.
 
-If any authenticated call fails with an auth error, tell the user to run `/mcp`, pick **dashform**, and sign in, then continue.
+If any authenticated call fails with an auth error, tell the user to sign in and then continue: in Claude Code via `/mcp` → **dashform**; in Codex via `codex mcp login dashform`.

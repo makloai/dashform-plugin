@@ -1,6 +1,6 @@
-# Dashform Claude Code plugin
+# Dashform agent plugin
 
-Official [Dashform](https://getaiform.com) plugin for Claude Code. Dashform is an AI-powered form builder — describe a form in plain language, publish it, and let AI score every reply.
+Official [Dashform](https://getaiform.com) plugin for Claude Code and OpenAI Codex. Dashform is an AI-powered form builder — describe a form in plain language, publish it, and let AI score every reply.
 
 The plugin connects the Dashform MCP server (`https://getaiform.com/api/mcp`) and ships:
 
@@ -9,12 +9,26 @@ The plugin connects the Dashform MCP server (`https://getaiform.com/api/mcp`) an
 
 ## Install
 
+### Claude Code
+
 ```
 /plugin marketplace add makloai/dashform-plugin
 /plugin install dashform@dashform-plugin
 ```
 
-Then run `/mcp`, select **dashform**, and sign in with your Dashform account — auth is OAuth in the browser, no API key needed. Marketplace discovery and agent-funnel booking tools work without signing in.
+Then run `/mcp`, select **dashform**, and sign in with your Dashform account.
+
+### Codex
+
+```bash
+codex plugin marketplace add makloai/dashform-plugin
+codex plugin add dashform
+codex mcp login dashform
+```
+
+Then start a new Codex session and invoke the skill with `@dashform`.
+
+Auth is OAuth in the browser for both agents — no API key needed. Marketplace discovery and agent-funnel booking tools work without signing in.
 
 ## Requirements
 

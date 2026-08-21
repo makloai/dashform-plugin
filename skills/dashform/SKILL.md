@@ -9,7 +9,7 @@ Dashform is an AI-powered form builder. This plugin connects the `dashform` MCP 
 
 ## Connection and auth
 
-- Most tools require OAuth. If authenticated tool calls fail with an auth error, tell the user to run `/mcp`, select **dashform**, and complete the browser sign-in (OAuth with dynamic client registration — no API key needed).
+- Most tools require OAuth (browser sign-in with dynamic client registration — no API key needed). If authenticated tool calls fail with an auth error, tell the user how to sign in for their agent: in Claude Code, run `/mcp` and select **dashform**; in Codex, run `codex mcp login dashform`.
 - A small public subset works without auth: marketplace discovery (`list_categories`, `search_merchants`, `search_services`) and agent-funnel booking (`get_business_info`, `get_services`, `get_form_questions`, `check_fit`, `get_availability`, `book_appointment`).
 
 ## Active organization
