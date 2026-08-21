@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "dashform": {
+      "type": "http",
+      "url": "https://getaiform.com/api/mcp"
+    }
+  }
+}

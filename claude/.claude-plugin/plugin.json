@@ -1,0 +1,13 @@
+{
+  "name": "dashform",
+  "displayName": "Dashform",
+  "version": "0.1.0",
+  "description": "Build, publish, and operate Dashform AI forms from Claude Code. Connects the Dashform MCP server (getaiform.com) and adds form-building workflows.",
+  "author": {
+    "name": "Makloai",
+    "url": "https://getaiform.com"
+  },
+  "homepage": "https://getaiform.com",
+  "repository": "https://github.com/makloai/dashform-plugin",
+  "keywords": ["dashform", "forms", "ai-forms", "lead-generation", "mcp"]
+}
