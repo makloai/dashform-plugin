@@ -9,5 +9,6 @@
   },
   "homepage": "https://getaiform.com",
   "repository": "https://github.com/makloai/dashform-plugin",
+  "license": "MIT",
   "keywords": ["dashform", "forms", "ai-forms", "lead-generation", "mcp"]
 }

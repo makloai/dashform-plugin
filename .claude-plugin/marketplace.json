@@ -11,7 +11,12 @@
       "name": "dashform",
       "displayName": "Dashform",
       "description": "Build, publish, and operate Dashform AI forms from Claude Code. Connects the Dashform MCP server (getaiform.com) and adds form-building workflows.",
-      "source": "./claude"
+      "author": {
+        "name": "Makloai",
+        "url": "https://getaiform.com"
+      },
+      "homepage": "https://getaiform.com",
+      "source": "./"
     }
   ]
 }
